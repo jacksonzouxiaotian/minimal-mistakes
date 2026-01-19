@@ -113,15 +113,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "jacksonzouxiaotian"
+  name             : "邹孝天"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "guangzhou"
+  bio              : "我是具身智能的开发者"
+  location         : "香港科技大学（广州）"
   email            :
   links:
     - label: "2627283077@qq.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://jacksonzouxiaotian.github.io/minimal-mistakes/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
