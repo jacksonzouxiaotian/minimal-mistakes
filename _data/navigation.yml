@@ -2,7 +2,15 @@
 main:
   - title: "首页"
     url: /
+
+  - title: "Research Projects"
+    url: /research/
+
+  - title: "Engineering"
+    url: /engineering/
+
   - title: "关于我"
     url: /about/
-  # - title: "研究项目"
-  #   url: /projects/
+
+  - title: "People"
+    url: /people/

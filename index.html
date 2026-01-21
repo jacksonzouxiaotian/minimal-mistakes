@@ -1,40 +1,46 @@
 ---
 layout: home
 author_profile: true
+
 header:
-  overlay_image: /assets/images/lab-banner.jpg # 建议放一张机器狗实验的照片
-  overlay_filter: 0.5 # 调低数值让背景图更亮
+  overlay_image: /assets/images/lab-banner.jpg
+  overlay_filter: 0.4
   caption: "香港科技大学（广州）具身智能实验室"
-excerpt: "致力于机器人强化学习与具身智能的前沿探索"
+excerpt: "面向真实世界的具身智能：从强化学习到自主机器人系统"
 
-# 实验室核心方向布局
+# 实验室核心方向
 feature_row_status:
-  - image_path: /assets/images/isaac-lab.jpg # 放入一张仿真环境截图
-    alt: "Isaac Lab"
-    title: "高保真仿真训练"
-    excerpt: "利用 NVIDIA Isaac Lab 构建大规模强化学习环境，实现复杂地形下的步态进化。"
-  - image_path: /assets/images/quadruped-robot.jpg # 放入一张机器狗照片
-    alt: "Real Robot"
-    title: "具身智能部署"
-    excerpt: "将强化学习模型部署于真机，探索狭隘空间通行与复杂场景交互。"
+  - image_path: /assets/images/isaac-lab.jpg
+    alt: "Isaac Lab Simulation"
+    title: "高保真仿真与强化学习"
+    excerpt: "基于 NVIDIA Isaac Lab 构建大规模、高保真的强化学习训练环境，研究复杂地形、狭窄空间与不确定条件下的运动与决策问题。"
 
-# 团队成员布局
+  - image_path: /assets/images/quadruped-robot.jpg
+    alt: "Quadruped Robot Deployment"
+    title: "具身智能真实部署"
+    excerpt: "将学习型策略与系统级安全机制部署至四足机器人，实现狭窄通道通行、失败恢复与复杂场景下的自主导航。"
+
+# 团队成员
 feature_row_team:
-  - image_path: /assets/images/member-1.jpg # 你的照片
-    title: "邹孝天 (X. Zou)"
-    excerpt: "研究员 | 四足机器人、强化学习"
+  - image_path: /assets/images/member-1.jpg
+    title: "邹孝天 (Xiaotian Zou)"
+    excerpt: "硕士生｜四足机器人 · 强化学习 · 具身智能系统"
+
   - image_path: /assets/images/member-2.jpg
     title: "崔倍荣"
-    excerpt: "硕士生 | 任务流调度"
+    excerpt: "硕士生｜任务规划与系统调度"
+
   - image_path: /assets/images/member-3.jpg
     title: "吴梓彬"
-    excerpt: "硕士生 | 计算机视觉、机器臂"
+    excerpt: "硕士生｜计算机视觉 · 机器人感知"
+
   - image_path: /assets/images/member-4.jpg
     title: "刘威"
-    excerpt: "硕士生 | 机器人安全、强化学习"
+    excerpt: "硕士生｜机器人安全 · 强化学习"
 ---
 
-## 实验室现状 (Lab Status)
+
+## 实验室研究方向 (Lab Focus)
 {% include feature_row id="feature_row_status" %}
 
 ---
@@ -45,4 +51,15 @@ feature_row_team:
 ---
 
 ## 最近进展 (Recent Progress)
-> 目前我们正在攻克机器狗在极窄通道下的自主避障与通行课题。
+
+> **狭窄空间下的自主通行与失败感知**
+
+我们当前的研究聚焦于**四足机器人在极窄通道与复杂室内环境中的自主通行问题**。  
+重点探索以下关键挑战：
+
+- 基于深度感知的局部可通行性判断  
+- 强化学习策略在真实机器人上的稳定部署  
+- 失败状态检测与自主恢复机制  
+- 仿真到现实(Sim-to-Real)迁移中的安全与鲁棒性问题  
+
+相关研究正在持续推进，并计划投稿至 **IROS / RSS 等国际机器人会议**。

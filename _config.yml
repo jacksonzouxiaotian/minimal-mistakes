@@ -113,13 +113,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "邹孝天"
+  name             : "大数据具身智能研究所"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "我是具身智能的开发者"
+  bio              : "具身智能的开发者"
   location         : "香港科技大学（广州）"
-  email            :
+  email            : "Ironlings@hkust-gz.edu.cn"
   links:
-    - label: "2627283077@qq.com"
+    - label: "Ironlings@hkust-gz.edu.cn"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:your.name@email.com"
     - label: "Website"
@@ -140,26 +140,24 @@ author:
 
 # Site Footer
 footer:
+  since: 2026
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
+      icon: "fab fa-github"
+      url: "https://github.com/你的账号"
+
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "Ironlings@hkust-gz.edu.cn"
+
+    - label: "Bilibili"
+      icon: "fab fa-bilibili"
+      url: "https://space.bilibili.com/3691004171389301"
+
+copyright: "Embodied Intelligence Lab, HKUST(GZ)"
+
+atom_feed:
+  hide: true
 
 
 # Reading Files
