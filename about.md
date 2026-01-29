@@ -1,12 +1,37 @@
 ---
 layout: single
-title: "关于我们"
+title: "团队介绍"
 permalink: /about/
 author_profile: true
 ---
 
+<section class="team-section">
+  <h2 class="section-title">导师</h2>
 
-## 个人简介
+  <div class="profile-card">
+    <div class="avatar-wrapper">
+      <img src="{{ '/assets/images/team/LeiChen.jpg' | relative_url }}">
+    </div>
+
+    <h3 class="name">陈雷 教授</h3>
+    <p class="title">讲座教授 · 信息枢纽院长</p>
+
+    <p class="bio">
+      陈雷，加拿大滑铁卢大学计算机博士，现为香港科技大学（广州）信息枢纽院长，
+      数据科学与分析学域讲座教授，香港科技大学大数据研究所所长，
+      香港科技大学教育部 / MSRA 信息技术重点实验室主任。
+      <br><br>
+      曾获 2020 年中国电子学会科学技术一等奖、2015 年 ACM SIGMOD 时间检测试奖、
+      2022 VLDB 最佳研究论文奖、2014 VLDB 优秀示范奖。
+      曾担任 VLDB 2019 PC 联合主席，
+      现为 IEEE TKDE 主编，IEEE Fellow、ACM Fellow、ACM 杰出科学家。
+    </p>
+  </div>
+</section>
+
+
+
+## 团队简介
 我们是 **具身智能爱好者**，目前专注于**机器具身智能**领域的研究。我的工作致力于让机器人能够在复杂、未知的环境中实现高度自主的运动与导航。
 
 目前的研究主要集中在：

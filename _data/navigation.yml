@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "首页"
+  - title: "front page"
     url: /
 
   - title: "Research Projects"
@@ -9,7 +9,7 @@ main:
   - title: "Engineering"
     url: /engineering/
 
-  - title: "关于我"
+  - title: "Team"
     url: /about/
 
   - title: "People"
